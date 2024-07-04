@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonCalcular
+id buttonLimpar
+id consumoAlcool
+id consumoGasolina
+id main
+id textViewResultado
+id valorAlcool
+id valorGasolina
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string Limpar
+string alcool_mais_vantajoso
+string app_name
+string calcular
+string consumo_alcool_km_l
+string consumo_gasolina_km_l
+string gasolina_mais_vantajosa
+string por_favor_insira_valores_v_lidos
+string valor_litro_gasolina_r
+string valor_litro_lcool_r
+style Base.Theme.FlexMelhorEscolha
+style Theme.FlexMelhorEscolha
+xml backup_rules
+xml data_extraction_rules
