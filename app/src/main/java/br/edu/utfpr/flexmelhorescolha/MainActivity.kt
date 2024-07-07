@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val buttonCalcular: Button = findViewById(R.id.buttonCalcular)
-        val ButtonLimpar: Button = findViewById(R.id.buttonLimpar)
+        val buttonLimpar: Button = findViewById(R.id.buttonLimpar)
 
         buttonCalcular.setOnClickListener {
             val consumoGasolina = findViewById<EditText>(R.id.consumoGasolina).text.toString().toDoubleOrNull()
@@ -38,12 +38,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         //Implementando o botao Limpar
-        ButtonLimpar.setOnClickListener {
-                findViewById<EditText>(R.id.consumoGasolina).setText("")
-                findViewById<EditText>(R.id.consumoAlcool).setText("")
-                findViewById<EditText>(R.id.valorGasolina).setText("")
-                findViewById<EditText>(R.id.valorAlcool).setText("")
-                findViewById<TextView>(R.id.textViewResultado).text = ""
+        buttonLimpar.setOnClickListener {
+                this.findViewById<EditText>(R.id.consumoGasolina).setText("")
+                this.findViewById<EditText>(R.id.consumoAlcool).setText("")
+                this.findViewById<EditText>(R.id.valorGasolina).setText("")
+                this.findViewById<EditText>(R.id.valorAlcool).setText("")
+                this.findViewById<TextView>(R.id.textViewResultado).text = ""
         }
 
 
