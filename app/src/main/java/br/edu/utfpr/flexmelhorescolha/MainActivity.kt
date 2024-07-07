@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val buttonCalcular: Button = findViewById(R.id.buttonCalcular)
         val ButtonLimpar: Button = findViewById(R.id.buttonLimpar)
 
