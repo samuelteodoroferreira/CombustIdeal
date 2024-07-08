@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0F7FA"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Primeira linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/consumoGasolina"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/consumo_gasolina_km_l"
+                android:inputType="numberDecimal"
+                android:textColorHint="#546E7A" />
+
+            <Button
+                android:id="@+id/btnBuscarComb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="#0288D1"
+                android:text="Buscar"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Segunda linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/consumoAlcool"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/consumo_alcool_km_l"
+                android:inputType="numberDecimal"
+                android:textColorHint="#546E7A" />
+
+            <Button
+                android:id="@+id/btnBuscarComb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="#0288D1"
+                android:text="Buscar"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Terceira linha -->
+        <EditText
+            android:id="@+id/valorGasolina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/valor_litro_gasolina_r"
+            android:inputType="numberDecimal"
+            android:textColorHint="#546E7A" />
+
+        <!-- Quarta linha -->
+        <EditText
+            android:id="@+id/valorAlcool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/valor_litro_lcool_r"
+            android:inputType="numberDecimal"
+            android:textColorHint="#546E7A" />
+
+        <!-- Botões de calcular e limpar -->
+        <Button
+            android:id="@+id/buttonCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#0288D1"
+            android:text="@string/calcular"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#0288D1"
+            android:text="@string/Limpar"
+            android:textColor="#FFFFFF" />
+
+        <!-- TextView Resultado -->
+        <TextView
+            android:id="@+id/textViewResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingTop="16dp"
+            android:textAlignment="center"
+            android:textScaleX="1.5"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

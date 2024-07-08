@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FlexMelhorEscolha</string>
+    <string name="consumo_gasolina_km_l">Gasolina (km/l)</string>
+    <string name="consumo_alcool_km_l">Álcool (km/l)</string>
+    <string name="valor_litro_gasolina_r">Valor Litro Gasolina (R$)</string>
+    <string name="valor_litro_lcool_r">Valor Litro Álcool (R$)</string>
+    <string name="calcular">Calcular</string>
+    <string name="Limpar">Limpar</string>
+    <string name="mensagem_erro_zerado">Por favor, insira valores válidos.</string>
+    <string name="gasolina_mais_vantajosa">Gasolina é mais vantajosa</string>
+    <string name="alcool_mais_vantajoso">Álcool é mais vantajoso</string>
+</resources>
