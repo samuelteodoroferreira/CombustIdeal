@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Limpar">Limpar</string>
+    <string name="alcool_mais_vantajoso">Álcool é mais vantajoso</string>
+    <string name="app_name">FlexMelhorEscolha</string>
+    <string name="calcular">Calcular</string>
+    <string name="consumo_alcool_km_l">Consumo Álcool (km/l)</string>
+    <string name="consumo_gasolina_km_l">Consumo Gasolina (km/l)</string>
+    <string name="gasolina_mais_vantajosa">Gasolina é mais vantajosa</string>
+    <string name="por_favor_insira_valores_v_lidos">Por favor, insira valores válidos.</string>
+    <string name="valor_litro_gasolina_r">Valor Litro Gasolina (R$)</string>
+    <string name="valor_litro_lcool_r">Valor Litro Álcool (R$)</string>
+    <style name="Base.Theme.FlexMelhorEscolha" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.FlexMelhorEscolha" parent="Base.Theme.FlexMelhorEscolha"/>
+</resources>
